@@ -1,0 +1,10 @@
+{
+  "main": "max150.raml",
+  "name": "max150",
+  "groupId": "d85c0c8f-6455-44d0-a3fc-22d836691b70",
+  "assetId": "max150",
+  "version": "1.0.0",
+  "classifier": "raml",
+  "tags": [],
+  "descriptorVersion": "1.0.0"
+}
