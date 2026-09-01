@@ -2,7 +2,7 @@
 title: max150
 
 types:
-  AmericanFlights: !include /exchange_modules/68ef9520-24e9-4cf2-b2f5-620025690913/training-american-flight-oas-data-type/1.0.0/training-american-flight-oas-data-type.yaml
+  AmericanFlight: !include /exchange_modules/68ef9520-24e9-4cf2-b2f5-620025690913/training-american-flight-oas-data-type/1.0.0/training-american-flight-oas-data-type.yaml
 
 /flights:
   post:
@@ -19,7 +19,11 @@ types:
         200:
           body:
             application/json:
-              type: 
+              type: AmericanFlight[]
+              examples:
+                output: !include /exchange_modules/68ef9520-24e9-4cf2-b2f5-620025690913/training-american-flight-oas-example/1.0.0/training-american-flight-oas-example.yaml
+
   /{ID}:
     get:
+        
         
