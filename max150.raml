@@ -6,7 +6,9 @@ types:
 
 /flights:
   post:
-      
+      body:
+        application/json:
+          type: AmericanFlight
   get:
       queryParameters:
         destination:
