@@ -7,5 +7,20 @@
   "groupId": "d85c0c8f-6455-44d0-a3fc-22d836691b70",
   "assetId": "max150",
   "version": "1.0.0",
-  "dependencies": []
+  "dependencies": [
+    {
+      "groupId": "68ef9520-24e9-4cf2-b2f5-620025690913",
+      "assetId": "training-american-flight-data-type",
+      "version": "1.0.1",
+      "classifier": "raml-fragment",
+      "packaging": "zip"
+    },
+    {
+      "groupId": "68ef9520-24e9-4cf2-b2f5-620025690913",
+      "assetId": "training-american-flights-example",
+      "version": "1.0.1",
+      "classifier": "raml-fragment",
+      "packaging": "zip"
+    }
+  ]
 }
