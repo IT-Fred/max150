@@ -10,16 +10,8 @@
   "dependencies": [
     {
       "groupId": "68ef9520-24e9-4cf2-b2f5-620025690913",
-      "assetId": "training-american-flight-oas-data-type",
-      "version": "1.0.0",
-      "classifier": "oas-components",
-      "packaging": "zip"
-    },
-    {
-      "groupId": "68ef9520-24e9-4cf2-b2f5-620025690913",
       "assetId": "training-american-flight-oas-example",
       "version": "1.0.0",
-      "classifier": "oas-components",
       "packaging": "zip"
     }
   ]
