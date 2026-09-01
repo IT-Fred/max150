@@ -1,10 +1,26 @@
 {
   "main": "max150.raml",
   "name": "max150",
+  "classifier": "raml",
+  "tags": [],
+  "descriptorVersion": "1.0.0",
   "groupId": "d85c0c8f-6455-44d0-a3fc-22d836691b70",
   "assetId": "max150",
   "version": "1.0.0",
-  "classifier": "raml",
-  "tags": [],
-  "descriptorVersion": "1.0.0"
+  "dependencies": [
+    {
+      "groupId": "68ef9520-24e9-4cf2-b2f5-620025690913",
+      "assetId": "training-american-flight-oas-data-type",
+      "version": "1.0.0",
+      "classifier": "oas-components",
+      "packaging": "zip"
+    },
+    {
+      "groupId": "68ef9520-24e9-4cf2-b2f5-620025690913",
+      "assetId": "training-american-flight-oas-example",
+      "version": "1.0.0",
+      "classifier": "oas-components",
+      "packaging": "zip"
+    }
+  ]
 }
